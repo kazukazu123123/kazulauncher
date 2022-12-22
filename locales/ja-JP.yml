@@ -1,0 +1,10 @@
+menu:
+  file:
+    title: ファイル
+    setting:
+      title: 設定
+      save: 保存
+      discard: 破棄
+    quit: 終了
+  launcher:
+    title: ランチャー

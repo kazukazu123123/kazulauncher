@@ -1,0 +1,10 @@
+menu:
+  file:
+    title: File
+    setting:
+      title: Setting
+      save: Save
+      discard: Discard
+    quit: Quit
+  launcher:
+    title: Launcher
