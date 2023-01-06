@@ -174,7 +174,7 @@ impl eframe::App for KazuLauncher {
                     for i in 0..32 {
                         let item = egui::Button::new("Item here");
                         if ui.add_sized([self.app_button_size, self.app_button_size], item)
-                            .on_hover_text_at_pointer("Some hover text")
+                            .on_hover_text_at_pointer(format!("Some hover text: {}", i))
                             .context_menu(|ui| {
                                 if ui.button("Click me!").clicked() {
                                     println!("You right-clicked menu item: {}", i);
