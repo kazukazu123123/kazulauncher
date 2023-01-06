@@ -1,7 +1,9 @@
 [package]
 name = "kazulauncher"
 version = "0.1.0"
+authors = ["kazukazu123123"]
 edition = "2021"
+repository = "https://github.com/kazukazu123123/kazulauncher"
 publish = false
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
